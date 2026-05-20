@@ -2,7 +2,8 @@ import requests
 import json
 import re
 
-OLLAMA_URL = "http://10.29.201.75:11434/api/chat"
+## ADD YOUR IP ADDRESS
+OLLAMA_URL = "http://YOUR-IP-ADDRESS:11434/api/chat"
 MODEL = "gemma3:4b"
 
 SYSTEM_PROMPT = """
