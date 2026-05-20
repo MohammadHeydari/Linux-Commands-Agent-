@@ -40,6 +40,13 @@ User Input  > LLM (Ollama - Tool Selection) > Parser (JSON → Tool) > Executor 
 
 ## Usage
 
+first of all, go the llm.py and change this line to your system ip address yo run the project correctly. 
+```
+## ADD YOUR IP ADDRESS
+OLLAMA_URL = "http://YOUR-IP-ADDRESS:11434/api/chat"
+```
+and then
+
 ```
 python app.py
 
